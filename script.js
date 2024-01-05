@@ -41,7 +41,7 @@ function clicked(id){
             document.body.style.backgroundColor = 'rgb(24 24 24)';
             document.getElementsByClassName('main')[0].style.backgroundColor = 'rgb(26 23 23)';
             document.getElementById('display').style.backgroundColor='rgb(40 113 8)';
-            document.getElementById('display').style.boxShadow=' inset -5px -6px 9px -1px rgb(98 195 56)';
+            document.getElementById('display').style.boxShadow='inset 10px 11px 9px -1px rgba(0, 0, 0, 0.425), inset -5px -6px 9px -1px rgb(98 195 56)';
         } else {
             mood = 'day';
             document.body.style.backgroundColor = '#adaeafc9';
