@@ -44,13 +44,13 @@ function clicked(id){
     else if(id='magic'){
         if(mood==='day'){
             mood="night";
-            document.body.backgroundColor()='rgb(0 0 0)';
-            document.getElementsByClassName('main').backgroundColor()='rgb(0 0 0)';
+            document.body.style.backgroundColor()='rgb(0 0 0)';
+            document.getElementsByClassName('main').style.backgroundColor()='rgb(0 0 0)';
         }
         else{
             mood='day';
-            document.body.backgroundColor()='#adaeafc9';
-            document.getElementsByClassName('main').backgroundColor()='rgb(238, 233, 233)';
+            document.body.style.backgroundColor()='#adaeafc9';
+            document.getElementsByClassName('main').style.backgroundColor()='rgb(238, 233, 233)';
         }
     }
 }
