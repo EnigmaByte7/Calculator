@@ -1,6 +1,6 @@
 let rvalue='';
 refresh('0');
-mood="d";
+mood="day";
 
 function refresh(value){
     if (value.length > 12){
@@ -41,6 +41,7 @@ function clicked(id){
             document.body.style.backgroundColor = 'rgb(24 24 24)';
             document.getElementsByClassName('main')[0].style.backgroundColor = 'rgb(26 23 23)';
             document.getElementById('display').style.backgroundColor='rgb(40 113 8)';
+            document.querySelectorAll('.row button').forEach(button => button.style.backgroundColor= '#e0ff26de');
             document.getElementById('display').style.boxShadow='inset 10px 11px 9px -1px rgba(0, 0, 0, 0.425), inset -5px -6px 9px -1px rgb(98 195 56)';
         } else {
             mood = 'day';
@@ -48,6 +49,7 @@ function clicked(id){
             document.getElementsByClassName('main')[0].style.backgroundColor = 'rgb(238, 233, 233)';
             document.getElementById('display').style.backgroundColor='rgb(238, 233, 233)';
             document.getElementById('display').style.boxShadow=' inset 10px 11px 9px -1px rgba(0, 0, 0, 0.425), inset -5px -6px 9px -1px rgba(255,255,255,0.70)';
+            document.querySelectorAll('.row button').forEach(button => button.style.backgroundColor= 'rgb(235 235 235)');
         }
     }
     else if (
