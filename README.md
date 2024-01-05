@@ -1,2 +1,2 @@
-##Simple Calculator
-###Features neumorphism
+## Simple Calculator
+## Features neumorphism
