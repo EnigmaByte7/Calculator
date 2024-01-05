@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="/projects/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://db.onlinewebfonts.com/c/61b4eaee5625d47bb7215f205e44f580?family=F7-Segment" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div id="display">
+            <div><p id="output"></p></div>
+        </div>
+        <div class="row">
+            <button onclick="clicked('C')" id="C" >C</button>
+            <button onclick="clicked('DEL')" id="DEL">DEL</button>
+            <button onclick="clicked('.')" id=".">.</button>
+            <button onclick="clicked('+')" id="+">+</button>
+        </div>
+        <div class="row">            
+            <button onclick="clicked('7')" id="7">7</button>
+            <button onclick="clicked('8')" id="8">8</button>
+            <button onclick="clicked('9')" id="9">9</button>
+            <button onclick="clicked('-')" id="-">-</button>
+        </div>
+        <div class="row">
+            <button onclick="clicked('4')" id="4">4</button>
+            <button onclick="clicked('5')" id="5">5</button>
+            <button onclick="clicked('6')" id="6">6</button>
+            <button onclick="clicked('*')" id="*">X</button>
+        </div>
+        <div class="row">
+            <button onclick="clicked('1')" id="1">1</button>
+            <button onclick="clicked('3')" id="3">3</button>
+            <button onclick="clicked('2')" id="2">2</button>
+            <button onclick="clicked('/')" id="/">/</button>
+        </div>
+        <div class="row">
+            <button onclick="clicked('magic')" id="magic"></button>
+            <button onclick="clicked('0')" id="0">0</button>
+            <button onclick="clicked('=')" id="=">=</button>
+        </div>
+    </div>
+    <script src="/projects/script.js"></script>
+</body>
+</html>
