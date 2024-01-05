@@ -1,5 +1,6 @@
 let rvalue='';
 refresh('0');
+mood="d";
 
 function refresh(value){
     if (value.length > 12){
@@ -40,4 +41,16 @@ function clicked(id){
         rvalue += id;
         refresh(rvalue);
       }
+    else if(id='magic'){
+        if(mood==='day'){
+            mood="night";
+            document.body.backgroundColor()='rgb(0 0 0)';
+            document.getElementsByClassName('main').backgroundColor()='rgb(0 0 0)';
+        }
+        else{
+            mood='day';
+            document.body.backgroundColor()='#adaeafc9';
+            document.getElementsByClassName('main').backgroundColor()='rgb(238, 233, 233)';
+        }
+    }
 }
