@@ -53,7 +53,7 @@ function clicked(id){
         }
     }
     else if (
-        !(rvalue === '' && ["=", "/", "*"].includes(id)) &&
+        !(rvalue === '' && ["=", "/", "*"].includes(id)) ||
         (!["/", "+", "-","*","."].includes(rvalue.slice(0,-1)) || !isNaN(Number(id)))
       ) {
         rvalue += id;
